@@ -12,7 +12,7 @@ export default class Header extends Component {
         <img src={logo} alt="" className="header-logo" />
         <ul>
           <li onClick={navbarHome}><Link to="/">Asosiy sahifa</Link></li>
-          <li onClick={navbarBtn}><a>Darslar</a></li>
+          <li onClick={navbarBtn}><a href='/'>Darslar</a></li>
           <li onClick={navbarHome}><Link to="/about">Muallif</Link></li>
         </ul>
         <div className="register-card">
