@@ -5,18 +5,18 @@ import Header from './components/Header/Header'
 import Home from './components/Home/Home'
 import Muallif from './components/Muallif/Muallif'
 import Birinchi from './components/Lessons/Birinchi'
-import Dars_1 from './components/Lessons/Dars_1'
-import Dars_2 from './components/Lessons/Dars_2'
-import Dars_3 from './components/Lessons/Dars_3'
-import Dars_4 from './components/Lessons/Dars_4'
-import Dars_5 from './components/Lessons/Dars_5'
-import Dars_6 from './components/Lessons/Dars_6'
-import Dars_7 from './components/Lessons/Dars_7'
-import Dars_8 from './components/Lessons/Dars_8'
-import Dars_9 from './components/Lessons/Dars_9'
-import Dars_10 from './components/Lessons/Dars_10'
-import Dars_11 from './components/Lessons/Dars_11'
-import Dars_12 from './components/Lessons/Dars_12'
+import Dars1 from './components/Lessons/Dars_1'
+import Dars2 from './components/Lessons/Dars_2'
+import Dars3 from './components/Lessons/Dars_3'
+import Dars4 from './components/Lessons/Dars_4'
+import Dars5 from './components/Lessons/Dars_5'
+import Dars6 from './components/Lessons/Dars_6'
+import Dars7 from './components/Lessons/Dars_7'
+import Dars8 from './components/Lessons/Dars_8'
+import Dars9 from './components/Lessons/Dars_9'
+import Dars10 from './components/Lessons/Dars_10'
+import Dars11 from './components/Lessons/Dars_11'
+import Dars12 from './components/Lessons/Dars_12'
 import Tamomlash from './components/Lessons/Tamomlash'
 
 export default class App extends Component {
@@ -25,21 +25,21 @@ export default class App extends Component {
   }
 
 
-  navbarBtn = () => {
-    const { navbarActive } = this.state
-    this.setState({
-      navbarActive: !navbarActive
-    })
-    console.log(navbarActive);
-  }
+  // navbarBtn = () => {
+  //   const { navbarActive } = this.state
+  //   this.setState({
+  //     navbarActive: !navbarActive
+  //   })
+  //   console.log(navbarActive);
+  // }
 
-  navbarHome = () => {
-    const { navbarActive } = this.state
+  // navbarHome = () => {
+  //   const { navbarActive } = this.state
 
-    this.setState({
-      navbarActive: false
-    })
-  }
+  //   this.setState({
+  //     navbarActive: false
+  //   })
+  // }
 
 
 
@@ -60,40 +60,40 @@ export default class App extends Component {
               <Birinchi />}
             />
             <Route path='/lesson/1-dars' element={
-              <Dars_1 />}
+              <Dars1 />}
             />
             <Route path='/lesson/2-dars' element={
-              <Dars_2/>}
+              <Dars2/>}
             />
             <Route path='/lesson/3-dars' element={
-              <Dars_3/>}
+              <Dars3/>}
             />
             <Route path='/lesson/4-dars' element={
-              <Dars_4/>}
+              <Dars4/>}
             />
             <Route path='/lesson/5-dars' element={
-              <Dars_5/>}
+              <Dars5/>}
             />
             <Route path='/lesson/6-dars' element={
-              <Dars_6/>}
+              <Dars6/>}
             />
             <Route path='/lesson/7-dars' element={
-              <Dars_7/>}
+              <Dars7/>}
             />
             <Route path='/lesson/8-dars' element={
-              <Dars_8/>}
+              <Dars8/>}
             />
             <Route path='/lesson/9-dars' element={
-              <Dars_9/>}
+              <Dars9/>}
             />
             <Route path='/lesson/10-dars' element={
-              <Dars_10/>}
+              <Dars10/>}
             />
             <Route path='/lesson/11-dars' element={
-              <Dars_11/>}
+              <Dars11/>}
             />
             <Route path='/lesson/12-dars' element={
-              <Dars_12/>}
+              <Dars12/>}
             />
             <Route path='/lesson/tamomlash' element={
               <Tamomlash/>}
