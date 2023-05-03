@@ -1,0 +1,70 @@
+.home-page {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    .home-cards {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .home-boxs {
+            width: 100%;
+            height: auto;
+            padding: 100px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+            background-color: #0c0d0db9;
+            .home-title {
+                font-family: 'Inter', sans-serif;
+                font-weight: 600;
+                font-size: 45px;
+                letter-spacing: 3px;
+                line-height: 30.01px;
+                text-transform: uppercase;
+                color: white;
+            }
+            .home-comment {
+                width: 61%;
+                text-align: center;
+                font-family: 'Inter', sans-serif;
+                letter-spacing: 1px;
+                line-height: 30.01px;
+                color: white;
+            }
+            Button {
+                color: white;
+                border: 2px  solid white;
+                padding: 10px 50px;
+                transition: 0.5s;
+            }
+            & Button:hover {
+                background-color: white;
+                color: #313437;
+            }
+        }
+    }
+    & .home-cards:nth-child(1) {
+        background-image: url("../HomeImg/bir.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    & .home-cards:nth-child(2) {
+        background-image: url("../HomeImg/ikki.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    & .home-cards:nth-child(3) {
+        background-image: url("../HomeImg/uch.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
