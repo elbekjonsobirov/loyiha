@@ -23,6 +23,22 @@ export default class App extends Component {
   state = {
     navbarActive: false
   }
+  navbarBtn = () => {
+    const { navbarActive } = this.state
+    this.setState({
+      navbarActive: !navbarActive
+    })
+    console.log(navbarActive);
+  }
+
+  navbarHome = () => {
+    // eslint-disable-next-line no-unused-vars
+    const { navbarActive } = this.state
+
+    this.setState({
+      navbarActive: false
+    })
+  }
 
 
   // navbarBtn = () => {
